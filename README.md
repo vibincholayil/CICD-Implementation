@@ -38,3 +38,6 @@ The application ran successfully on my localhost
 <p>After that, I installed Kubernetes and ArgoCD, using the installation links provided on OperatorHub for setting up ArgoCD.</p>
 
 ![alt text](image-12.png)
+
+<p>Minikube is running on Docker.</p>
+
