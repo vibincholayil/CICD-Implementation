@@ -41,3 +41,6 @@ The application ran successfully on my localhost
 
 <p>Minikube is running on Docker.</p>
 
+![alt text](assets/image_copy_2.png)
+
+![alt text](assets/image%20copy%202.png)
