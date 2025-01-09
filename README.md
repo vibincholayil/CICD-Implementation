@@ -15,3 +15,8 @@ Run the Docker container and map port 8010 to 8080<br><i>docker run -d -p 8010:8
 The application ran successfully on my localhost
 
 ![Alt Text](assets/image1.png)
+
+<h2>Project Start: Below, I explain how to run this in a CI/CD pipeline.</h2>
+
+<h3>Creating an EC2 Instance<h3><br>
+<p>I have set up an EC2 instance with the instance type t2.large, running the Ubuntu operating system. This configuration is chosen to ensure sufficient storage and resources for managing the demanding configurations required for this project.</p>
