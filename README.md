@@ -13,3 +13,5 @@ Build the Docker image<br><i>docker build -t vibincholayil/cicd-pipeline:v1 .
 Run the Docker container and map port 8010 to 8080<br><i>docker run -d -p 8010:8080 -t vibincholayil/cicd-pipeline:v1
 
 The application ran successfully on my localhost
+
+![alt text](image.png)
