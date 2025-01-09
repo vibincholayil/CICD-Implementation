@@ -23,16 +23,16 @@ The application ran successfully on my localhost
 
 <p>Then, i have SSH-ed into the AWS server, updated the Ubuntu operating system, and installed Jenkins on it. Additionally, I installed the 'Docker Pipeline' and 'SonarQube Scanner' plugins in Jenkins.</p>
 
-![Alt text](image2.png)<br>
-![Alt text](image3.png)
+![alt text](image-5.png)<br>
+![alt text](image-6.png)
 
 <p>Started SonarQube and connected it to Jenkins using a Sonar token.</p>
 
-![Alt text](image4.png)
+![alt text](image-7.png)
 
 <p>Then,i installed Docker and granted both the Jenkins user and the Ubuntu user the necessary permissions to access the Docker daemon. After completing all the Jenkins configurations, I restarted the Jenkins service for the first time to apply the changes.</p>
 
 <p>After that Install Kubernetes and ArgoCD</p>
 <p>After that, I installed Kubernetes and ArgoCD, using the installation links provided on OperatorHub for setting up ArgoCD.</p>
 
-![Alt text](image5.png)
+
