@@ -8,10 +8,8 @@ I divided this project into two parts:<br>
 I installed all necessary dependencies, including Maven.<br>
 Then, I created a Docker image named cicd-pipeline using the base image openjdk:11. I ran the image locally and exposed it on localhost:8010 using the following commands:<br>
 
-Build the Docker image
-<i>docker build -t vibincholayil/cicd-pipeline:v1 .
+Build the Docker image<br><i>docker build -t vibincholayil/cicd-pipeline:v1 .
 
-Run the Docker container and map port 8010 to 8080
-<i>docker run -d -p 8010:8080 -t vibincholayil/cicd-pipeline:v1
+Run the Docker container and map port 8010 to 8080<br><i>docker run -d -p 8010:8080 -t vibincholayil/cicd-pipeline:v1
 
 The application ran successfully on my localhost
