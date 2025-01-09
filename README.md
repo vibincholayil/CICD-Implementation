@@ -21,23 +21,23 @@ The application ran successfully on my localhost
 <b>Creating an EC2 Instance</b><br>
 <p>I have set up an EC2 instance with the instance type t2.large, running the Ubuntu operating system. This configuration is chosen to ensure sufficient storage and resources for managing the demanding configurations required for this project.</p>
 
-![alt text](image-8.png)
+![alt text](assets/image-8.png)
 
 <p>Then, i have SSH-ed into the AWS server, updated the Ubuntu operating system, and installed Jenkins on it. Additionally, I installed the 'Docker Pipeline' and 'SonarQube Scanner' plugins in Jenkins.</p>
 
-![alt text](image-9.png)
+![alt text](assets/image-9.png)
 
 <p>Started SonarQube and connected it to Jenkins using a Sonar token.</p>
 
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](assets/image-10.png)
+![alt text](assets/image-11.png)
 
 <p>Then,i installed Docker and granted both the Jenkins user and the Ubuntu user the necessary permissions to access the Docker daemon. After completing all the Jenkins configurations, I restarted the Jenkins service for the first time to apply the changes.</p>
 
 <p>After that Install Kubernetes and ArgoCD</p>
 <p>After that, I installed Kubernetes and ArgoCD, using the installation links provided on OperatorHub for setting up ArgoCD.</p>
 
-![alt text](image-12.png)
+![alt text](assets/image-12.png)
 
 <p>Minikube is running on Docker.</p>
 
