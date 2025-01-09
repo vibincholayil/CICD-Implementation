@@ -14,4 +14,4 @@ Run the Docker container and map port 8010 to 8080<br><i>docker run -d -p 8010:8
 
 The application ran successfully on my localhost
 
-![alt text](image.png)
+![alt text](image1.png)
