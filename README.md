@@ -18,5 +18,5 @@ The application ran successfully on my localhost
 
 <h2>Project Start: Below, I explain how to run this in a CI/CD pipeline.</h2>
 
-Creating an EC2 Instance<br>
+<b>Creating an EC2 Instance<b><br>
 <p>I have set up an EC2 instance with the instance type t2.large, running the Ubuntu operating system. This configuration is chosen to ensure sufficient storage and resources for managing the demanding configurations required for this project.</p>
