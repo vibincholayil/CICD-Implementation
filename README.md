@@ -44,3 +44,18 @@ The application ran successfully on my localhost
 ![alt text](assets/image_copy_2.png)
 
 ![alt text](assets/image%20copy%202.png)
+
+<p> Unfortunately, this time the build failed. I debugged the issue and identified the problem, then rectified it with the help of ChatGPT. The issue was due to a Jenkinsfile error, which I have fixed, and I ran the build again.</p>
+
+![alt text](assets/image13.png)
+![alt text](assets/image14.png)
+
+<p> Sonarqube test passed </p>
+
+![alt text](assets/image15.png)
+
+<p>Shell script updated the repo</p>
+
+![alt text](assets/image16.png)
+
+<H3>Conclusion</H3>
