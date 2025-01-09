@@ -22,4 +22,17 @@ The application ran successfully on my localhost
 <p>I have set up an EC2 instance with the instance type t2.large, running the Ubuntu operating system. This configuration is chosen to ensure sufficient storage and resources for managing the demanding configurations required for this project.</p>
 
 <p>Then, i have SSH-ed into the AWS server, updated the Ubuntu operating system, and installed Jenkins on it. Additionally, I installed the 'Docker Pipeline' and 'SonarQube Scanner' plugins in Jenkins.</p>
-![Alt Text](assets/image2.png)
+
+![alt text](image2.png)
+![alt text](image3.png)
+
+<p>Started SonarQube and connected it to Jenkins using a Sonar token.</p>
+
+![alt text](image4.png)
+
+<p>Then,i installed Docker and granted both the Jenkins user and the Ubuntu user the necessary permissions to access the Docker daemon. After completing all the Jenkins configurations, I restarted the Jenkins service for the first time to apply the changes.</p>
+
+<p>After that Install Kubernetes and ArgoCD</p>
+<p>After that, I installed Kubernetes and ArgoCD, using the installation links provided on OperatorHub for setting up ArgoCD.</p>
+
+![alt text](image5.png)
