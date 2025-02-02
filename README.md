@@ -16,46 +16,44 @@ The application ran successfully on my localhost
 
 ![Alt Text](assets/image1.png)
 
-<h2>Project Start: Below, I explain how to run this in a CI/CD pipeline.</h2>
+**Project Start: Below, I explain how to run this in a CI/CD pipeline.**
 
-<b>Creating an EC2 Instance</b><br>
-<p>I have set up an EC2 instance with the instance type t2.large, running the Ubuntu operating system. This configuration is chosen to ensure sufficient storage and resources for managing the demanding configurations required for this project.</p>
+**Creating an EC2 Instance**
+I have set up an EC2 instance with the instance type t2.large, running the Ubuntu operating system. This configuration is chosen to ensure sufficient storage and resources for managing the demanding configurations required for this project.
 
 ![alt text](assets/image-8.png)
 
-<p>Then, i have SSH-ed into the AWS server, updated the Ubuntu operating system, and installed Jenkins on it. Additionally, I installed the 'Docker Pipeline' and 'SonarQube Scanner' plugins in Jenkins.</p>
+Then, i have SSH-ed into the AWS server, updated the Ubuntu operating system, and installed Jenkins on it. Additionally, I installed the 'Docker Pipeline' and 'SonarQube Scanner' plugins in Jenkins.
 
 ![alt text](assets/image-9.png)
 
-<p>Started SonarQube and connected it to Jenkins using a Sonar token.</p>
+Started SonarQube and connected it to Jenkins using a Sonar token.
 
 ![alt text](assets/image-10.png)
 ![alt text](assets/image-11.png)
 
-<p>Then,i installed Docker and granted both the Jenkins user and the Ubuntu user the necessary permissions to access the Docker daemon. After completing all the Jenkins configurations, I restarted the Jenkins service for the first time to apply the changes.</p>
+Then,i installed Docker and granted both the Jenkins user and the Ubuntu user the necessary permissions to access the Docker daemon. After completing all the Jenkins configurations, I restarted the Jenkins service for the first time to apply the changes.
 
-<p>After that Install Kubernetes and ArgoCD</p>
-<p>After that, I installed Kubernetes and ArgoCD, using the installation links provided on OperatorHub for setting up ArgoCD.</p>
+After that Install Kubernetes and ArgoCD
+After that, I installed Kubernetes and ArgoCD, using the installation links provided on OperatorHub for setting up ArgoCD.
 
 ![alt text](assets/image-12.png)
 
-<p>Minikube is running on Docker.</p>
+**Minikube is running on Docker.**
 
 ![alt text](assets/image_copy_2.png)
 
 ![alt text](assets/image%20copy%202.png)
 
-<p> Unfortunately, this time the build failed. I debugged the issue and identified the problem, then rectified it with the help of ChatGPT. The issue was due to a Jenkinsfile error, which I have fixed, and I ran the build again.</p>
+**Unfortunately, this time the build failed. I debugged the issue and identified the problem, then rectified it with the help of ChatGPT. The issue was due to a Jenkinsfile error, which I have fixed, and I ran the build again.**
 
 ![alt text](assets/image13.png)
 ![alt text](assets/image14.png)
-
-<p> Sonarqube test passed </p>
+**Sonarqube test passed**
 
 ![alt text](assets/image15.png)
 
-<p>Shell script updated the repo</p>
+**Shell script updated the repo**
 
 ![alt text](assets/image16.png)
 
-<H3>Conclusion</H3>
